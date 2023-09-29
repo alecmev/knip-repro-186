@@ -1,9 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "hastscript": "^8.0.0"
-  },
-  "devDependencies": {
-    "@types/hast": "^3.0.0"
-  }
-}

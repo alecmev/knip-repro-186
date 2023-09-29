@@ -1,14 +1,11 @@
 {
-  "packageManager": "yarn@3.6.1",
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
+  "dependencies": {
+    "hastscript": "^8.0.0"
+  },
   "devDependencies": {
-    "@tsconfig/esm": "^1.0.4",
-    "@tsconfig/node20": "^20.1.1",
-    "@tsconfig/strictest": "^2.0.1",
-    "knip": "^2.29.0",
-    "typescript": "^5.1.6"
+    "@types/hast": "^3.0.1",
+    "knip": "^2.30.0",
+    "typescript": "^5.2.2"
   }
 }

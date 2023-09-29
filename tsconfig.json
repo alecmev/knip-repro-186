@@ -1,6 +1,7 @@
 {
-  "extends": "../../boilerplate/tsconfig.base.json",
   "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "jsx": "react-jsx",
     "jsxImportSource": "hastscript/svg"
   }
